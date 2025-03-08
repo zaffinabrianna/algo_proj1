@@ -3,6 +3,8 @@
 #include <stack>
 #include <queue>
 #include <stdexcept>
+
+//Include priority queue and make priority queue object, allow it to be used as a stack and queue
 using namespace std;
 
 enum class Mode { PRIORITY, STACK, QUEUE };
@@ -38,7 +40,7 @@ public:
 		}
 	}
 
-	//Pop functions w/ Edge Case Handeling
+	//Pop functions w/ Edge Case Handling
 	T pop()
 	{
 		if (is_empty())
