@@ -6,6 +6,8 @@
 
 //Include priority queue and make priority queue object, allow it to be used as a stack and queue
 //Use priority queue class and make a new class that handles stacks and queues.
+//Make object for priority queue class that's prebuilt, automatically does max_heap.
+//
 using namespace std;
 
 enum class Mode { PRIORITY, STACK, QUEUE };
